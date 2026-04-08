@@ -3,7 +3,6 @@ const withNextIntl = createNextIntlPlugin('./lib/i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'dist',
   images: {
     unoptimized: true,
   },
