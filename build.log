@@ -1,0 +1,66 @@
+
+> sameday-express@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings
+
+./components/home/IndustriesSection.tsx
+Attempted import error: 'Hospital' is not exported from '__barrel_optimize__?names=Factory,Hospital,Pill,Plane,Scale,ShoppingCart!=!lucide-react' (imported as 'Hospital').
+
+Import trace for requested module:
+./components/home/IndustriesSection.tsx
+
+./components/home/ServicesSection.tsx
+Attempted import error: 'Flask' is not exported from '__barrel_optimize__?names=ArrowRight,Flask,Globe,Pill,Plane,Warehouse,Zap!=!lucide-react' (imported as 'Flask').
+
+Import trace for requested module:
+./components/home/ServicesSection.tsx
+
+./components/layout/Navbar.tsx
+Attempted import error: 'Flask' is not exported from '__barrel_optimize__?names=ArrowRight,ChevronDown,FileText,Flask,Globe,Home,MapPin,Menu,Pill,Plane,Search,Settings,Truck,X,Zap!=!lucide-react' (imported as 'Flask').
+
+Import trace for requested module:
+./components/layout/Navbar.tsx
+
+./components/home/IndustriesSection.tsx
+Attempted import error: 'Hospital' is not exported from '__barrel_optimize__?names=Factory,Hospital,Pill,Plane,Scale,ShoppingCart!=!lucide-react' (imported as 'Hospital').
+
+Import trace for requested module:
+./components/home/IndustriesSection.tsx
+
+./components/home/ServicesSection.tsx
+Attempted import error: 'Flask' is not exported from '__barrel_optimize__?names=ArrowRight,Flask,Globe,Pill,Plane,Warehouse,Zap!=!lucide-react' (imported as 'Flask').
+
+Import trace for requested module:
+./components/home/ServicesSection.tsx
+
+./components/layout/Navbar.tsx
+Attempted import error: 'Flask' is not exported from '__barrel_optimize__?names=ArrowRight,ChevronDown,FileText,Flask,Globe,Home,MapPin,Menu,Pill,Plane,Search,Settings,Truck,X,Zap!=!lucide-react' (imported as 'Flask').
+
+Import trace for requested module:
+./components/layout/Navbar.tsx
+
+./app/[locale]/services/page.tsx
+Attempted import error: 'Flask' is not exported from '__barrel_optimize__?names=ArrowRight,Check,Flask,Globe,Pill,Plane,Warehouse,Zap!=!lucide-react' (imported as 'Flask').
+
+Import trace for requested module:
+./app/[locale]/services/page.tsx
+
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/[locale]/layout.tsx:22:30
+Type error: Property 'title' does not exist on type 'string | AbstractIntlMessages'.
+  Property 'title' does not exist on type 'string'.
+
+[0m [90m 20 |[39m   [0m
+[0m [90m 21 |[39m   [36mreturn[39m {[0m
+[0m[31m[1m>[22m[39m[90m 22 |[39m     title[33m:[39m messages[33m.[39mmetadata[33m.[39mtitle[33m,[39m[0m
+[0m [90m    |[39m                              [31m[1m^[22m[39m[0m
+[0m [90m 23 |[39m     description[33m:[39m messages[33m.[39mmetadata[33m.[39mdescription[33m,[39m[0m
+[0m [90m 24 |[39m     alternates[33m:[39m {[0m
+[0m [90m 25 |[39m       canonical[33m:[39m locale [33m===[39m [32m'en'[39m [33m?[39m [32m'/'[39m [33m:[39m [32m`/${locale}/`[39m[33m,[39m[0m
+Next.js build worker exited with code: 1 and signal: null

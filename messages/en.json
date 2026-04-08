@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "title": "Sameday Express | Same-Day Courier & Delivery Canada",
+    "description": "Fast same-day courier service in Montreal, Toronto, Ottawa. Medical, AOG, cross-border logistics. Available 24/7. Call 1-888-252-9623."
+  },
+  "topBar": {
+    "phone": "1-888-252-9623",
+    "email": "info@samedayexpress.ca",
+    "location": "Dorval, QC",
+    "register": "REGISTER",
+    "login": "LOGIN"
+  },
+  "nav": {
+    "welcome": "Welcome",
+    "track": "Track your shipment",
+    "services": "Our Services",
+    "zones": "Zones",
+    "vehicles": "Vehicles",
+    "contact": "Contact",
+    "quote": "REQUEST A QUOTE"
+  },
+  "servicesDropdown": {
+    "title": "LOGISTICS SERVICES",
+    "sameDay": {
+      "title": "SAME DAY DELIVERY",
+      "subtitle": "Urgent non-stop delivery"
+    },
+    "aog": {
+      "title": "AOG (AIRCRAFT ON THE GROUND)",
+      "subtitle": "24/7 Critical Service"
+    },
+    "bioscience": {
+      "title": "BIOSCIENCE AND TESTING",
+      "subtitle": "Specialized medical transport"
+    },
+    "medical": {
+      "title": "MEDICAL MESSAGING",
+      "subtitle": "Dedicated healthcare logistics"
+    },
+    "crossBorder": {
+      "title": "CROSS-BORDER TRANSPORT",
+      "subtitle": "Canada-USA Express"
+    },
+    "viewAll": "VIEW ALL SERVICES"
+  },
+  "hero": {
+    "badge": "Professional service 24/7",
+    "title": "Express Delivery",
+    "subtitle": "Quebec — Ontario — New Brunswick",
+    "description": "Fast and reliable courier service with real-time GPS tracking. Available 24/7 to meet all your logistics needs.",
+    "quoteBtn": "Request a quote",
+    "callBtn": "Call now",
+    "trackBtn": "Track a shipment",
+    "badges": {
+      "available": "Available 24/7",
+      "gps": "GPS tracking",
+      "insured": "Fully insured",
+      "fast": "Fast & Reliable"
+    }
+  },
+  "stats": {
+    "years": {
+      "value": "25+",
+      "label": "YEARS OF EXPERIENCE"
+    },
+    "deliveries": {
+      "value": "5K+",
+      "label": "DAILY DELIVERIES"
+    },
+    "cities": {
+      "value": "1500+",
+      "label": "CITIES SERVED"
+    },
+    "satisfaction": {
+      "value": "99.99%",
+      "label": "CUSTOMER SATISFACTION"
+    }
+  },
+  "services": {
+    "label": "OUR SERVICES",
+    "title": "Comprehensive Logistics Solutions",
+    "cards": {
+      "sameDay": {
+        "title": "Same Day Delivery",
+        "description": "Urgent pickup and delivery within hours. Direct, non-stop transport."
+      },
+      "aog": {
+        "title": "AOG — Aircraft on Ground",
+        "description": "24/7 critical aviation parts delivery. We don't sleep when planes are grounded."
+      },
+      "bioscience": {
+        "title": "Bioscience & Testing",
+        "description": "Specialized transport for lab samples, test kits, and biological materials."
+      },
+      "medical": {
+        "title": "Medical Courier",
+        "description": "Temperature-sensitive medications, hospital supplies, and healthcare logistics."
+      },
+      "crossBorder": {
+        "title": "Cross-Border Transport",
+        "description": "Canada–USA express shipping with full customs compliance."
+      },
+      "warehousing": {
+        "title": "Warehousing & Fulfillment",
+        "description": "Storage, pick-and-pack, and last-mile delivery for e-commerce."
+      }
+    },
+    "viewAll": "VIEW ALL SERVICES"
+  },
+  "whyChooseUs": {
+    "title": "Why businesses trust Sameday Express",
+    "description": "With over 25 years of experience, we've built a reputation for reliability, speed, and exceptional customer service. Our dedicated team ensures your shipments arrive on time, every time.",
+    "features": {
+      "speed": {
+        "title": "Speed First",
+        "description": "Same-day guaranteed with real-time GPS tracking"
+      },
+      "insured": {
+        "title": "Fully Insured",
+        "description": "All shipments fully covered end-to-end"
+      },
+      "coverage": {
+        "title": "Wide Coverage",
+        "description": "Montreal, Toronto, Ottawa + cross-border USA"
+      },
+      "certified": {
+        "title": "Medical Certified",
+        "description": "DG-trained drivers, strict medical protocols"
+      }
+    }
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "vehicles": {
+      "nissan": {
+        "name": "Nissan NV 200",
+        "specs": "Load: 1,500 lb / 680 kg"
+      },
+      "sprinter144": {
+        "name": "Sprinter 144",
+        "specs": "Payload: 4,890 lb / 2,259 kg"
+      },
+      "sprinter177": {
+        "name": "Sprinter 177",
+        "specs": "Payload: 4,400 lb / 1,996 kg"
+      },
+      "hino": {
+        "name": "Hino 195",
+        "specs": "Payload: 9,854 lb / 4,470 kg"
+      }
+    },
+    "seeDetails": "See Details",
+    "viewAll": "VIEW ALL VEHICLES"
+  },
+  "industries": {
+    "title": "Who We Serve",
+    "items": {
+      "hospitals": "Hospitals & Labs",
+      "ecommerce": "E-commerce Companies",
+      "manufacturers": "Manufacturers & Warehouses",
+      "legal": "Legal & Financial Firms",
+      "aviation": "Aviation (AOG)",
+      "pharma": "Pharma & Medical"
+    }
+  },
+  "ctaBanner": {
+    "title": "Ready for fast, reliable delivery?",
+    "subtitle": "Call us today or request a quote online.",
+    "callBtn": "1-888-252-9623",
+    "quoteBtn": "Request a Quote"
+  },
+  "footer": {
+    "description": "Your trusted partner for same-day delivery and logistics solutions across Canada and beyond.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "zones": "Zones",
+    "vehicles": "Vehicles",
+    "contact": "Contact",
+    "medical": "Medical Courier",
+    "aog": "AOG Services",
+    "crossBorder": "Cross-Border",
+    "warehousing": "Warehousing",
+    "address": "516 Avenue Meloche, Dorval, QC H9P2T2",
+    "phone": "1-888-252-9623",
+    "email": "info@samedayexpress.ca",
+    "hours": "24/7",
+    "copyright": "© 2026 Sameday Express Inc. All rights reserved.",
+    "language": "English | Français"
+  },
+  "quoteModal": {
+    "title": "Request a Quote",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "pickup": "Pickup Address",
+    "delivery": "Delivery Address",
+    "packageType": "Package Type",
+    "packageTypes": {
+      "envelope": "Envelope",
+      "box": "Box",
+      "pallet": "Pallet",
+      "medical": "Medical",
+      "dangerous": "Dangerous Goods",
+      "other": "Other"
+    },
+    "urgency": "Urgency",
+    "urgencyOptions": {
+      "sameDay": "Same Day",
+      "nextDay": "Next Day",
+      "scheduled": "Scheduled",
+      "asap": "ASAP — Within 2 hours"
+    },
+    "notes": "Additional Notes",
+    "submit": "Send Request",
+    "success": "Your request has been received! We'll contact you within 30 minutes.",
+    "close": "Close"
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "breadcrumb": "Home > Our Services",
+    "intro": "Sameday Express offers a comprehensive range of logistics services designed to meet your urgent delivery needs. From same-day delivery to specialized medical transport, we have the expertise and fleet to handle it all.",
+    "sameDay": {
+      "title": "Same Day Delivery",
+      "description": "Our flagship service ensures your packages reach their destination within hours. With direct, non-stop transport and real-time tracking, you can trust us with your most time-sensitive deliveries.",
+      "features": [
+        "Direct non-stop transport",
+        "Real-time GPS tracking",
+        "Pickup within 60 minutes",
+        "Signature confirmation",
+        "Proof of delivery with photo"
+      ]
+    },
+    "aog": {
+      "title": "AOG — Aircraft on Ground",
+      "description": "When an aircraft is grounded, every minute counts. Our AOG service operates 24/7 to deliver critical aviation parts to get planes back in the air. We understand the urgency and have dedicated teams ready to respond immediately.",
+      "features": [
+        "24/7 emergency response",
+        "Dedicated AOG hotline",
+        "Direct airport delivery",
+        "Customs clearance assistance",
+        "Real-time status updates"
+      ]
+    },
+    "bioscience": {
+      "title": "Bioscience & Testing",
+      "description": "We specialize in transporting lab samples, test kits, and biological materials with the utmost care. Our drivers are trained in handling sensitive materials and maintaining proper chain of custody.",
+      "features": [
+        "Temperature-controlled transport",
+        "Chain of custody documentation",
+        "HIPAA compliant handling",
+        "Scheduled and on-demand pickup",
+        "Laboratory-to-laboratory service"
+      ]
+    },
+    "medical": {
+      "title": "Medical Courier",
+      "description": "Temperature-sensitive medications, hospital supplies, and healthcare logistics require specialized handling. Our medical courier service ensures compliance with all healthcare regulations while delivering on time.",
+      "features": [
+        "Temperature monitoring",
+        "DG-trained drivers",
+        "Medical protocol compliance",
+        "Hospital dock delivery",
+        "Emergency STAT service"
+      ]
+    },
+    "crossBorder": {
+      "title": "Cross-Border Transport",
+      "description": "Canada–USA express shipping with full customs compliance. We handle all the paperwork and regulatory requirements to ensure smooth cross-border deliveries.",
+      "features": [
+        "Customs documentation",
+        "Brokerage services",
+        "Real-time tracking",
+        "Duty and tax handling",
+        "Express clearance"
+      ]
+    },
+    "warehousing": {
+      "title": "Warehousing & Fulfillment",
+      "description": "Complete storage, pick-and-pack, and last-mile delivery solutions for e-commerce businesses. Scale your operations with our flexible warehousing services.",
+      "features": [
+        "Secure storage facility",
+        "Inventory management",
+        "Pick and pack services",
+        "Same-day fulfillment",
+        "Returns processing"
+      ]
+    },
+    "cta": "Request a Quote"
+  },
+  "zonesPage": {
+    "title": "Map of the Areas",
+    "subtitle": "Our delivery and service areas",
+    "breadcrumb": "Home > Zones",
+    "intro": "Sameday Express provides comprehensive coverage across major Canadian provinces and cross-border services to the United States. Our extensive network ensures reliable delivery wherever your business takes you.",
+    "serviceAreas": {
+      "title": "Service Areas",
+      "content": "We offer delivery services in the following regions:",
+      "areas": [
+        "Montreal Metropolitan Region",
+        "Greater Toronto Area",
+        "Province of Quebec",
+        "Province of Ontario",
+        "Province of New Brunswick",
+        "Cross-border services to the United States"
+      ]
+    },
+    "contact": {
+      "title": "Contact us for more details",
+      "content": "For specific information on delivery zones and rates, contact our team:",
+      "phone": "Telephone: 1-888-252-9623",
+      "email": "Email: info@samedayexpress.ca"
+    }
+  },
+  "vehiclesPage": {
+    "title": "Our Vehicles",
+    "breadcrumb": "Home > Vehicles",
+    "intro": "Our modern fleet is equipped to handle shipments of all sizes, from small parcels to large pallets. Each vehicle is GPS-tracked and maintained to the highest standards for reliable service.",
+    "vehicles": {
+      "sprinter177": {
+        "name": "SPRINTER 177",
+        "payload": "Payload Capacity: 4,400 lb / 1,996 kg",
+        "length": "Length: 162 inch (13.5 feet)",
+        "width": "Width: 60 inch (5 feet)",
+        "height": "Height: 68 inch (5.5 feet)"
+      },
+      "sprinter144": {
+        "name": "SPRINTER 144",
+        "payload": "Payload Capacity: 4,890 lb / 2,259 kg",
+        "length": "Length: 128 inch (10.67 feet)",
+        "width": "Width: 60 inch (5 feet)",
+        "height": "Height: 59 inch (4.92 feet)"
+      },
+      "nissan": {
+        "name": "NISSAN NV 200",
+        "payload": "Load Capacity: 1,500 lb / 680 kg"
+      },
+      "hino": {
+        "name": "HINO 195",
+        "payload": "Payload Capacity: 9,854 lb / 4,470 kg"
+      }
+    },
+    "cta": "Need a specific vehicle for your shipment? Contact us."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "breadcrumb": "Home > Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "quote": "Get a Quote",
+        "track": "Track Shipment",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "address": "516 Avenue Meloche, Dorval, QC H9P2T2",
+      "phone": "1-888-252-9623",
+      "email": "info@samedayexpress.ca",
+      "hours": "Hours: 24/7"
+    }
+  }
+}
