@@ -46,11 +46,11 @@ export default function Navbar() {
   ]
 
   const servicesList = [
-    { icon: Zap, title: tServices('sameDay.title'), subtitle: tServices('sameDay.subtitle'), href: `/${locale}/services/` },
-    { icon: Plane, title: tServices('aog.title'), subtitle: tServices('aog.subtitle'), href: `/${locale}/services/` },
-    { icon: Flask, title: tServices('bioscience.title'), subtitle: tServices('bioscience.subtitle'), href: `/${locale}/services/` },
-    { icon: Pill, title: tServices('medical.title'), subtitle: tServices('medical.subtitle'), href: `/${locale}/services/` },
-    { icon: Globe, title: tServices('crossBorder.title'), subtitle: tServices('crossBorder.subtitle'), href: `/${locale}/services/` },
+    { icon: Zap, title: tServices('sameDay.title'), subtitle: tServices('sameDay.subtitle'), href: `/${locale}/services/sameDay` },
+    { icon: Plane, title: tServices('aog.title'), subtitle: tServices('aog.subtitle'), href: `/${locale}/services/aog` },
+    { icon: Flask, title: tServices('bioscience.title'), subtitle: tServices('bioscience.subtitle'), href: `/${locale}/services/bioscience` },
+    { icon: Pill, title: tServices('medical.title'), subtitle: tServices('medical.subtitle'), href: `/${locale}/services/medical` },
+    { icon: Globe, title: tServices('crossBorder.title'), subtitle: tServices('crossBorder.subtitle'), href: `/${locale}/services/crossBorder` },
   ]
 
 
