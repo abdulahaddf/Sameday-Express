@@ -43,13 +43,13 @@ export default function TopBar() {
         {/* Right side - Buttons and Language toggle */}
         <div className="flex items-center gap-3">
           {/* Register & Login buttons */}
-          <button className="px-3 py-1 border border-white/30 rounded text-xs font-medium hover:border-accent-cyan hover:text-accent-cyan transition-colors">
+          <Link href="https://courriermdex.courier-connex.com/index.php?action=register" target="blank" className="px-3 py-1 border border-white/30 rounded text-xs font-medium hover:border-accent-cyan hover:text-accent-cyan transition-colors">
             {t('register')}
-          </button>
-          <button className="px-3 py-1 border border-white/30 rounded text-xs font-medium hover:border-accent-cyan hover:text-accent-cyan transition-colors flex items-center gap-1">
+          </Link>
+          <Link href="https://courriermdex.courier-connex.com/client" target="blank" className="px-3 py-1 border border-white/30 rounded text-xs font-medium hover:border-accent-cyan hover:text-accent-cyan transition-colors flex items-center gap-1">
             {t('login')}
             <ArrowRight className="w-3 h-3" />
-          </button>
+          </Link>
           
           {/* Language toggle */}
           <div className="flex items-center ml-2">

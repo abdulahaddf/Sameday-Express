@@ -4,15 +4,13 @@ import { useTranslations } from 'next-intl'
 import { Phone } from 'lucide-react'
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Link from 'next/link'
 
 export default function CTABanner() {
   const t = useTranslations('ctaBanner')
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
-  const handleQuoteClick = () => {
-    window.dispatchEvent(new CustomEvent('openQuoteModal'))
-  }
 
   return (
     <section 
@@ -40,12 +38,12 @@ export default function CTABanner() {
               <Phone className="w-5 h-5" />
               {t('callBtn')}
             </a>
-            <button
-              onClick={handleQuoteClick}
+            <Link
+              href="https://courriermdex.courier-connex.com/index.php?action=pricing" target="blank"
               className="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-light transition-colors"
             >
               {t('quoteBtn')}
-            </button>
+            </Link>
           </div>
         </motion.div>
       </div>

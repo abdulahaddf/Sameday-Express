@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { ClipboardList, Phone, Search, Clock, Satellite, Shield, Zap } from 'lucide-react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export default function Hero() {
   const t = useTranslations('hero')
@@ -30,9 +31,7 @@ export default function Hero() {
     }
   }
 
-  const handleQuoteClick = () => {
-    window.dispatchEvent(new CustomEvent('openQuoteModal'))
-  }
+
 
   const badges = [
     { icon: Clock, label: t('badges.available') },
@@ -99,13 +98,13 @@ export default function Hero() {
             variants={itemVariants}
             className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 pt-6 md:pt-8 w-full max-w-sm sm:max-w-none mx-auto"
           >
-            <button
-              onClick={handleQuoteClick}
+            <Link
+              href="https://courriermdex.courier-connex.com/index.php?action=pricing" target="blank"
               className="flex items-center justify-center gap-2 px-6 py-2 md:py-3.5 bg-accent-cyan text-white font-semibold rounded-lg hover:bg-accent-teal transition-all hover:scale-105 w-full sm:w-auto text-base"
             >
               <ClipboardList className="w-5 h-5 flex-shrink-0" />
               {t('quoteBtn')}
-            </button>
+            </Link>
             <a
               href="tel:1-888-252-9623"
               className="flex items-center justify-center gap-2 px-6 py-2 md:py-3.5 bg-primary/80 backdrop-blur-sm text-white font-semibold rounded-lg border border-white/20 hover:bg-primary transition-all w-full sm:w-auto text-base"

@@ -5,7 +5,6 @@ import { locales, type Locale } from '@/lib/i18n'
 import TopBar from '@/components/layout/TopBar'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
-import QuoteModal from '@/components/layout/QuoteModal'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -51,7 +50,6 @@ export default async function LocaleLayout({
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
-        <QuoteModal />
       </div>
     </NextIntlClientProvider>
   )

@@ -25,7 +25,6 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isServicesOpen, setIsServicesOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,12 +34,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  useEffect(() => {
-    // Listen for quote modal trigger events
-    const handleQuoteOpen = () => setIsQuoteModalOpen(true)
-    window.addEventListener('openQuoteModal', handleQuoteOpen)
-    return () => window.removeEventListener('openQuoteModal', handleQuoteOpen)
-  }, [])
+
 
   const navLinks: NavLink[] = [
     { href: `/${locale}/`, label: t('welcome'), icon: Home },
@@ -59,9 +53,6 @@ export default function Navbar() {
     { icon: Globe, title: tServices('crossBorder.title'), subtitle: tServices('crossBorder.subtitle'), href: `/${locale}/services/` },
   ]
 
-  const handleQuoteClick = () => {
-    window.dispatchEvent(new CustomEvent('openQuoteModal'))
-  }
 
   return (
     <>
@@ -178,13 +169,13 @@ export default function Navbar() {
 
             {/* CTA Button */}
             <div className="hidden lg:block">
-              <button
-                onClick={handleQuoteClick}
+              <Link 
+                href="https://courriermdex.courier-connex.com/index.php?action=pricing" target="blank"
                 className="flex items-center gap-2 px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-accent-cyan transition-colors"
               >
                 {t('quote')}
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -219,13 +210,13 @@ export default function Navbar() {
                     <span className="font-medium">{link.label}</span>
                   </Link>
                 ))}
-                <button
-                  onClick={handleQuoteClick}
+                <Link
+                  href="https://courriermdex.courier-connex.com/index.php?action=pricing" target="blank"
                   className="w-full flex items-center justify-center gap-2 px-5 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent-cyan transition-colors mt-4"
                 >
                   {t('quote')}
                   <ArrowRight className="w-4 h-4" />
-                </button>
+                </Link>
               </nav>
             </motion.div>
           )}
