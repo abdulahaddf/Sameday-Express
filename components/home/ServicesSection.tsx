@@ -73,26 +73,26 @@ export default function ServicesSection() {
               key={service.key}
               variants={cardVariants}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="h-full"
+              className="group relative bg-white border border-gray-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300"
             >
-              <Link href={`/${locale}/services/${service.key}`} className="block h-full group relative bg-white border border-gray-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
-                {/* Top border accent on hover */}
-                <div className="absolute top-0 left-0 right-0 h-1 bg-accent-cyan rounded-t-xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
-                
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-accent-cyan/10 rounded-xl group-hover:bg-accent-cyan group-hover:text-white transition-colors">
-                    <service.icon className="w-6 h-6 text-accent-cyan group-hover:text-white transition-colors" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-primary mb-2 group-hover:text-accent-cyan transition-colors">
+              {/* Top border accent on hover */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-accent-cyan rounded-t-xl transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
+              
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-accent-cyan/10 rounded-xl group-hover:bg-accent-cyan group-hover:text-white transition-colors">
+                  <service.icon className="w-6 h-6 text-accent-cyan group-hover:text-white transition-colors" />
+                </div>
+                <div className="flex-1">
+                  <Link href={`/${locale}/services/${service.key}`}>
+                    <h3 className="text-lg font-bold text-primary mb-2 hover:text-accent-cyan transition-colors">
                       {t(`cards.${service.key}.title`)}
                     </h3>
-                    <p className="text-sm text-grey-text leading-relaxed">
-                      {t(`cards.${service.key}.description`)}
-                    </p>
-                  </div>
+                  </Link>
+                  <p className="text-sm text-grey-text leading-relaxed">
+                    {t(`cards.${service.key}.description`)}
+                  </p>
                 </div>
-              </Link>
+              </div>
             </motion.div>
           ))}
         </motion.div>
