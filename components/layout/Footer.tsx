@@ -177,7 +177,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-grey-text text-[10px] text-center mt-3">
-            Design & Developed by <Link href="https://www.totalofftec.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent-cyan transition-colors">TOTALOFFTEC</Link>
+            Design & Developed by <Link href="https://www.totalofftec.com" target="_blank" rel="noopener noreferrer" className="text-[#fc7901] transition-colors">TOTALOFFTEC</Link>
           </p>
         </div>
       </div>
